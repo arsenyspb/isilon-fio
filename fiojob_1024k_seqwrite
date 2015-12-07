@@ -1,0 +1,15 @@
+; --start job file --
+[global]
+description=-------------THIS IS A JOB DOING ${FILENAME} ---------
+directory=${FILENAME}
+rw=write
+size=36G
+bs=1024k
+zero_buffers
+direct=0
+sync=0
+refill_buffers
+ioengine=sync
+iodepth=1
+[1024k_seqwrite]
+; -- end job file --
