@@ -1,3 +1,5 @@
+#!/bin/bash
+# assuming /mnt/isilon is used as the mountpoint on Harness Server
 # first go through all lines in hosts.list
 for i in $(cat /mnt/isilon/fiotest/control/nfs_hosts.list) ; do
 # then split each line read in to an array by the pipe symbol

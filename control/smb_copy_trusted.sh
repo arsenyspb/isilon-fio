@@ -1,3 +1,4 @@
+#!/bin/bash
 # apart from running this script, copy trusted file to the Isilon node
 # of choice that would be used to clear cache when running the fio job
 # by the same command as below
